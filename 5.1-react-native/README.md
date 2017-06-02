@@ -29,6 +29,7 @@ react-native run-android
 
 
 ## en cas de problème
+- Le remote debugging via USB ne marche pas pour android < 5.0. Dans ce cas utiliser le debug via wifi
 - en cas de soucis avec les versions de sdk, soit installer les sdk build tools demandés (solution recommandée) soit modifier ./android/app/build.gradle pour remplacer lignes 87 et 92 les valeurs de buildToolsVersion et targetSdkVersion pour correspondre aux build-tools et sdk installés
 cf. http://stackoverflow.com/questions/33155087/react-native-on-android-failed-to-find-build-tools#34928913
 - Dans le sdk manager : vérifier et installer/mettre à jour les `Extras > Android Support repository` cf. http://stackoverflow.com/questions/33023018/react-native-awesome-project-not-building-android-project#33023883
